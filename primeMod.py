@@ -9,7 +9,7 @@ def sieve(end):
 		if checklist[i] == "y":
 			primes.append(i)
 			for j in range(i*i, end+1, i):
-					checklist[j] = "n"
+				checklist[j] = "n"
 	for i in range(root, end+1):
 		if checklist[i] == "y":
 			primes.append(i)
@@ -31,7 +31,7 @@ def primeNumber(end):
 		add = True
 		for i in primes:
 			if(i > root):
-					break
+				break
 			elif index % i == :
 				add = False
 				break

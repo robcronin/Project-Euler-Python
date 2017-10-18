@@ -6,8 +6,8 @@ def sqDiff(n):
 	sumOfSqs = 1
 
 	for i in range(2, n+1):
-			sumTotal += i
-			sumOfSqs += i*i
+		sumTotal += i
+		sumOfSqs += i*i
 
 	return sumTotal**2 - sumOfSqs
 

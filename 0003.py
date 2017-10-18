@@ -13,10 +13,10 @@ def largestPrimeFactor(n):
 		ans = 3
 
 	while(n != 1):
-			if n % ans == 0:
-				n = n/ans
-			else:
-				ans = ans + 2
+		if n % ans == 0:
+			n = n/ans
+		else:
+			ans = ans + 2
 
 	return ans
 
